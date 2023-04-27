@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Stolzl';
+  src: local('Stolzl Regular'), local('Stolzl-Regular'),
+      url('../src/fonts/Stolzl/Stolzl-Regular.woff2') format('woff2'),
+      url('../src/fonts/Stolzl/Stolzl-Regular.woff') format('woff'),
+      url('../src/fonts/Stolzl/Stolzl-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: local('Gotham Pro Regular'), local('Gotham-Pro-Regular'),
+      url('../src/fonts/Gotham/GothamPro.woff2') format('woff2'),
+      url('../src/fonts/Gotham/GothamPro.woff') format('woff'),
+      url('../src/fonts/Gotham/GothamPro.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Bold';
+  src: local('Gotham Pro Bold'), local('Gotham-Pro-Bold'),
+      url('../src/fonts/Gotham/GothamPro-Bold.woff2') format('woff2'),
+      url('../src/fonts/Gotham/GothamPro-Bold.woff') format('woff'),
+      url('../src/fonts/Gotham/GothamPro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

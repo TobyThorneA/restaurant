@@ -1,0 +1,143 @@
+.events-wrapper{
+  display: flex;
+  width: 1296px;
+  min-height: 560px;
+  margin: 0 0 150px 0;
+  &__image{
+    width: 416px;
+    height: 560px;
+  }
+  &__events-turists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 440px;
+    height: 560px;
+  }
+  &__leed{
+    width: 260px;
+    height: 38px;
+    font-family: 'Gotham Pro Bold';
+    background: #FFFFFF;
+    margin-bottom: 40px;
+    padding-top: 10px;
+  }
+  &__title{
+    font-family: 'Gotham Pro Bold';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+  &__wrapper-text{
+    width: 376px;
+    min-height: 250px;
+    color: #FFFFFF;
+    font-family: 'Stolzl';
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 45px;
+  }
+  &__text{
+    margin-top: 0;
+  }
+  &__button{
+    width: 156px;
+    height: 51px;
+    border: 2px solid #D5621D;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Stolzl';
+    letter-spacing: 0.05em;
+    background: transparent;
+  }
+}
+
+@media(max-width: 1199px){
+  .events-wrapper{
+    width: 990px;
+    margin: 0 0 100px 0;
+    &__image{
+      width: 330px;
+      height: 560px;
+      img{
+        width: 330px;
+        height: 560px;
+      }
+    }
+    &__events-turists{
+      width: 330px;
+    }
+    &__leed{
+      width: 330px;
+    }
+    &__wrapper-text{
+      width: 300px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media(max-width: 991px){
+  .events-wrapper{
+    width: 768px;
+    margin: 0 0 100px 0;
+    &__image{
+      width: 256px;
+      height: 560px;
+      img{
+        width: 256px;
+        height: 560px;
+      }
+    }
+    &__events-turists{
+      width: 256px;
+    }
+    &__leed{
+      width: 256px;
+    }
+    &__wrapper-text{
+      width: 230px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .events-wrapper{
+    flex-direction: column;
+    width: 575px;
+    margin: 0 0 50px 0;
+    &__image{
+      display: none;
+    }
+    &__events-turists{
+      width: 575px;
+      height: 600px;
+      margin-bottom: 50px;
+    }
+    &__wrapper-text{
+      width: 450px;
+    }
+  }
+}
+
+@media(max-width: 575px) {
+  .events-wrapper{
+    flex-direction: column;
+    width: 320px;
+    margin: 0 0 50px 0;
+    &__image{
+      display: none;
+    }
+    &__events-turists{
+      width: 320px;
+      height: 600px;
+      margin-bottom: 50px;
+    }
+    &__wrapper-text{
+      width: 310px;
+    }
+  }
+}
