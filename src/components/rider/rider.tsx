@@ -57,15 +57,25 @@ function Rider() {
               <div className='wrapper-rider__engeniers-data'>
                 <img className='wrapper-rider__engeniers-photo' src={img.engeniersPhoto.izotov} alt="izotov" />
                 <p className='wrapper-rider__engeniers-name'>Изотов Константин</p>
+                <div className='wrapper-rider__messengers-wrapper'>
+                  <Link to='/' className='wrapper-rider__messengers-link'>
+                     <img src={img.messengers.vk} alt="" />
+                  </Link>
+                  <Link to='/' className='wrapper-rider__messengers-link'>
+                    <img src={img.messengers.tg} alt="" />
+                  </Link>
+                </div>
               </div>
               <div className='wrapper-rider__engeniers-data' >
                 <img className='wrapper-rider__engeniers-photo' src={img.engeniersPhoto.xoziev} alt="xoziev" />
                 <p className='wrapper-rider__engeniers-name'>Давид Хозиев</p>
                 <div className='wrapper-rider__messengers-wrapper'>
                   <Link to='/' className='wrapper-rider__messengers-link'>
-                    {/* <img src={img} alt="" /> */}
+                     <img src={img.messengers.vk} alt="" />
                   </Link>
-                  <Link to='/' className='wrapper-rider__messengers-link'></Link>
+                  <Link to='/' className='wrapper-rider__messengers-link'>
+                    <img src={img.messengers.tg} alt="" />
+                  </Link>
                 </div>
               </div>
             </div>

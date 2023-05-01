@@ -3,7 +3,8 @@
   align-items: center;
   flex-direction: column;
   width: 1078px;
-  min-height: 906px;
+  min-height: 500px;
+  // min-height: 906px;
   color: #FFFFFF;
   margin-bottom: 150px;
   &__heading{
@@ -33,11 +34,18 @@
   &__content-container{
     display: flex;
     width: 1078px;
-    min-height: 688px;
+    min-height: 500px;
   }
   &__lists{
     width: 539px;
-    min-height: 688px;
+    min-height: 300px;
+    // min-height: 688px;
+  }
+  &__sound-engeniers{
+    padding-left: 124px;
+    width: 539px;
+    min-height: 300px;
+    // min-height: 688px;
   }
   &__container{
     width: 526px;
@@ -101,11 +109,6 @@
       font-size: 14px;
       line-height: 240%;
     }
-  }
-  &__sound-engeniers{
-    padding-left: 124px;
-    width: 539px;
-    min-height: 688px;
   }
   &__engeniers-title{
     width: 415px;
