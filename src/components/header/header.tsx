@@ -7,7 +7,7 @@ const menuNavigation = ['Главная', 'Меню', 'Афиша', 'Сотру�
 const renderMenu = (menuWords: Array<string>) => {
   return menuWords.map((word) => {
     return (
-      <li className='header__navigation'><Link className='header__link' to='/'>{word}</Link></li>
+      <li onClick={() => console.log('Push me')} className='header__navigation'><Link className='header__link' to='/'>{word}</Link></li>
     )
   })
 }
