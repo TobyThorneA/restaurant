@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1173eed2.css",
+    "main.js": "/static/js/main.e6f9cfac.js",
+    "static/media/Rectangle.jpg": "/static/media/Rectangle.5839609912f6aa588f18.jpg",
+    "static/media/event.png": "/static/media/event.4c8959401e3fa633eb30.png",
+    "static/media/logo.svg": "/static/media/logo.467ece180daa708d36d4fd18ac9a6d33.svg",
+    "static/media/Stolzl-Regular.ttf": "/static/media/Stolzl-Regular.e894a221d17f0afecafc.ttf",
+    "static/media/xoziev.png": "/static/media/xoziev.019f927e26765090625b.png",
+    "static/media/izotov.png": "/static/media/izotov.6be953501606c7f2424f.png",
+    "static/media/fontanka-fest.png": "/static/media/fontanka-fest.e8a86c5d907a4459932c.png",
+    "static/media/fishs.png": "/static/media/fishs.fda73df25ef67a572741.png",
+    "static/media/GothamPro-Bold.ttf": "/static/media/GothamPro-Bold.eb4c39e5900eb7912e7c.ttf",
+    "static/media/GothamPro.ttf": "/static/media/GothamPro.0bf54ab241cce31b49c1.ttf",
+    "static/media/Stolzl-Regular.woff": "/static/media/Stolzl-Regular.1c3b5cf8d78894be0798.woff",
+    "static/media/final-concert.png": "/static/media/final-concert.42706d69f06630dfd6d0.png",
+    "static/media/Stolzl-Regular.woff2": "/static/media/Stolzl-Regular.5cbda06fcf6155861c21.woff2",
+    "static/media/dish1.png": "/static/media/dish1.945169f482dd8a7e1491.png",
+    "static/media/GothamPro-Bold.woff": "/static/media/GothamPro-Bold.e8ddda7220a05cf00f1c.woff",
+    "static/media/GothamPro.woff": "/static/media/GothamPro.9e3de47599b8a119a2b3.woff",
+    "static/media/grace.png": "/static/media/grace.2be2fa51ba648bd71b60.png",
+    "static/media/GothamPro.woff2": "/static/media/GothamPro.97a23059df8a758600fb.woff2",
+    "static/media/GothamPro-Bold.woff2": "/static/media/GothamPro-Bold.b9c5d1404c9e2ed632e3.woff2",
+    "index.html": "/index.html",
+    "main.1173eed2.css.map": "/static/css/main.1173eed2.css.map",
+    "main.e6f9cfac.js.map": "/static/js/main.e6f9cfac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1173eed2.css",
+    "static/js/main.e6f9cfac.js"
+  ]
+}
