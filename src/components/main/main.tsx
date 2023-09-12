@@ -1,23 +1,44 @@
 import { img } from '../../images/img'
-import Header from '../header/header'
 import Kitchen from '../kitchen/kitchen'
 import Events from '../events-and-tourists/events'
 import './main.scss'
 import Rider from '../rider/rider'
 import Contacts from '../contacts/contacts'
+import { useAppDispatch, useAppSelector } from '../../hooks/hooks'
+import { stateClassBilbord } from '../../store/reducers/state-menu'
+
+const arrNamePosts = ['Ближайшие', 'Скоро']
+
+
 
 function Main() {
+
+  const stateBilbord = useAppSelector((state) => state.stateMenuName.stateBilbord)
+  const dispatch = useAppDispatch()
+
   return (
-    <div className='wrapper'>
-      <Header/>
+    <div className='wrapper'> 
       <section className='wrapper-main'>
         <div className='wrapper-main__first-screen'>
           <img className='wrapper-main__rectangle' src={img.rectangle} alt="rectangle" />
         </div>
         <div className='wrapper-main__announcements'>
-          
-        <button className='wrapper-main__buttons'>Ближайшие</button>
-        <button className='wrapper-main__buttons soon'>Скоро</button>
+
+        <div>{arrNamePosts.map((it) => {
+          return (
+            <button 
+              className={`wrapper-main__buttons ${it === stateBilbord? '' : 'soon'}`}
+              key={it}
+              id={it}
+              onClick={(e) => {
+                  dispatch(stateClassBilbord(e.currentTarget.id))
+              }}
+            >
+              {it}
+            </button>
+          )
+        })
+          }</div>
         <ul className='wrapper-main__announcements-card'>
           <li className='wrapper-main__card-wrapper'>
             <img src={img.main.fishs} alt="kjm" />
